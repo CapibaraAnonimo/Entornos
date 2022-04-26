@@ -569,7 +569,7 @@
 														"$ref": "AAAAAAGAYChx6DSzX3M="
 													},
 													"font": "Arial;13;0",
-													"left": 39.9599609375,
+													"left": 59.578125,
 													"top": 213,
 													"width": 112.287109375,
 													"height": 13,
@@ -582,11 +582,11 @@
 														"$ref": "AAAAAAGAYChx6DSzX3M="
 													},
 													"font": "Arial;13;1",
-													"left": 13,
+													"left": 29,
 													"top": 213,
-													"width": 21.9599609375,
+													"width": 25.578125,
 													"height": 13,
-													"text": "seq"
+													"text": "loop"
 												},
 												{
 													"_type": "UMLInteractionOperandCompartmentView",
@@ -615,17 +615,17 @@
 																		"$ref": "AAAAAAGAYChx9jTCRL8="
 																	},
 																	"font": "Arial;13;0",
-																	"left": 28,
+																	"left": 44,
 																	"top": 246,
-																	"width": 122.14794921875,
+																	"width": 104.076171875,
 																	"height": 13,
-																	"text": "[Asiento no ocupado]"
+																	"text": "[Asiento ocupado]"
 																}
 															],
 															"font": "Arial;13;0",
-															"left": 8,
+															"left": 24,
 															"top": 231,
-															"width": 849,
+															"width": 801,
 															"height": 43,
 															"guardLabel": {
 																"$ref": "AAAAAAGAYChx9jTDnxI="
@@ -633,16 +633,16 @@
 														}
 													],
 													"font": "Arial;13;0",
-													"left": 8,
+													"left": 24,
 													"top": 231,
-													"width": 849,
+													"width": 801,
 													"height": 43
 												}
 											],
 											"font": "Arial;13;0",
-											"left": 8,
+											"left": 24,
 											"top": 208,
-											"width": 849,
+											"width": 801,
 											"height": 105,
 											"nameLabel": {
 												"$ref": "AAAAAAGAYChx6TS0wL4="
@@ -2486,7 +2486,7 @@
 										"$ref": "AAAAAAGAYCCYtTPhzSU="
 									},
 									"name": "SeleccionarAsiento",
-									"interactionOperator": "seq",
+									"interactionOperator": "loop",
 									"operands": [
 										{
 											"_type": "UMLInteractionOperand",
@@ -2495,7 +2495,7 @@
 												"$ref": "AAAAAAGAYChx6DSx6SY="
 											},
 											"name": "Operand1",
-											"guard": "Asiento no ocupado"
+											"guard": "Asiento ocupado"
 										}
 									]
 								}
@@ -2509,7 +2509,8 @@
 							"_parent": {
 								"$ref": "AAAAAAGAYCCYtDPgjxA="
 							},
-							"name": "Role1"
+							"name": "Role1",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -2517,7 +2518,8 @@
 							"_parent": {
 								"$ref": "AAAAAAGAYCCYtDPgjxA="
 							},
-							"name": "Role2"
+							"name": "Role2",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -2525,7 +2527,8 @@
 							"_parent": {
 								"$ref": "AAAAAAGAYCCYtDPgjxA="
 							},
-							"name": "Role3"
+							"name": "Role3",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -2533,7 +2536,8 @@
 							"_parent": {
 								"$ref": "AAAAAAGAYCCYtDPgjxA="
 							},
-							"name": "Role4"
+							"name": "Role4",
+							"type": ""
 						}
 					]
 				}
